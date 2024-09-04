@@ -15,8 +15,8 @@
 </template>
 
 <script>
-import Dealer from './Dealer'
-import Player from './Player'
+import Dealer from './Dealer.vue'
+import Player from './Player.vue'
 import { mapGetters } from 'vuex';
 export default {
   name: "game",

@@ -12,7 +12,7 @@
 </template>
 
 <script>
-import Card from './Card'
+import Card from './Card.vue'
 import { mapGetters } from 'vuex';
 export default {
   name: 'player',

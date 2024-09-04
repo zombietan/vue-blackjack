@@ -15,7 +15,7 @@ export default {
   computed: {
     image: function () {
       const filename = this.hide ? 'back' : `${this.suit}_${this.number.toString().padStart(2, '0')}`
-      return require(`../assets/card_${filename}.png`)
+      return new URL(`../assets/card_${filename}.png`, import.meta.url).href
     }
   }
 }
